@@ -1,0 +1,8 @@
+[Unit]
+Description=GuessTheNumber2702Bot
+
+[Service]
+ExecStart=/root/GuessTheNumber2702Bot/runGuessTheNumber2702Bot.sh
+
+[Install]
+WantedBy=multi-user.target
